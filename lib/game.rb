@@ -19,7 +19,6 @@ class Game
 
     if @attempts == 0
       puts welcome_user
-      puts @answer
       @guess = gets.chomp.to_i
     end
 
